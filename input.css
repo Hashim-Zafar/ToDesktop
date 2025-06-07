@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+.mb-active-1 {
+  background-image: linear-gradient(to bottom right, #f87171, #a78bfa, #60a5fa);
+}
+.mb-active-2 {
+  background-image: linear-gradient(to bottom right, #fecaca, #e9d5ff, #bfdbfe);
+}
+.mb-active-3 {
+  background-image: linear-gradient(to bottom right, #fef2f2, #f5f3ff, #eff6ff);
+}
+.lg-active {
+  box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.35);
+}
